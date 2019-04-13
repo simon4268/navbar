@@ -1,0 +1,55 @@
+body{
+  background: red;
+  position: relative;
+}
+nav{
+  background: ;
+     width: 100%;
+     height: auto;
+    /* position: fixed;*/
+}
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
+}
+.links{
+     display: block;
+     text-decoration: none;
+     font-size: 1.5rem;
+     padding: 0.7rem;
+     text-align: center;
+     border: 1px solid white;
+     border-radius: 9999px;
+     color: white;
+     background: black;
+     box-sizing: border-box;
+}
+
+@media (min-width: 600px){
+     nav{
+          position: fixed;
+          top: 0px;
+          
+     }
+}
+@media (min-width: 600px){
+     .links{
+        width: 22%;
+          
+       }
+}
+@media (min-width: 600px){
+     a{
+       float: left;
+          
+     }
+}
+@media (min-width: 600px){
+     #content{
+       background: blue;
+       margin-top: 80px;   
+     }
+}
+
+
+
